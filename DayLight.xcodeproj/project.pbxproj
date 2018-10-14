@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1110598F5BA6078A82A552EA /* Pods_DayLightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA2E93D109F351ED19409C3 /* Pods_DayLightTests.framework */; };
+		8B0EF249588F4381AD874B2C /* Pods_DayLightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B25F6B127C183FB3C605FA /* Pods_DayLightUITests.framework */; };
+		A8E319DBAC2CE459178DDF14 /* Pods_DayLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD29D1C11903519889917ED /* Pods_DayLight.framework */; };
+		DB1BF1572116BFB20040300E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1BF1562116BFB20040300E /* AppDelegate.swift */; };
+		DB1BF15C2116BFB20040300E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1BF15A2116BFB20040300E /* Main.storyboard */; };
+		DB1BF15E2116BFB30040300E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1BF15D2116BFB30040300E /* Assets.xcassets */; };
+		DB1BF16C2116BFB40040300E /* DayLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1BF16B2116BFB40040300E /* DayLightTests.swift */; };
+		DB1BF1772116BFB40040300E /* DayLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1BF1762116BFB40040300E /* DayLightUITests.swift */; };
+		DB2FF528211E846400A95B7C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FF527211E846400A95B7C /* Color.swift */; };
+		DB4283A121384F0000844882 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4283A021384F0000844882 /* MainViewController.xib */; };
+		DBE60D372116C2F80064D057 /* DarkSkyAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE60D362116C2F80064D057 /* DarkSkyAPIManager.swift */; };
+		DBE60D462116CF160064D057 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE60D442116CF160064D057 /* MainViewController.swift */; };
+		EA1DBA06211A5A1600903801 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1DBA05211A5A1600903801 /* Day.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1BF1682116BFB40040300E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1BF14B2116BFB20040300E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1BF1522116BFB20040300E;
+			remoteInfo = DayLight;
+		};
+		DB1BF1732116BFB40040300E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1BF14B2116BFB20040300E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1BF1522116BFB20040300E;
+			remoteInfo = DayLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B25F6B127C183FB3C605FA /* Pods_DayLightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayLightUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		386CB321A1AA3CA957B1164C /* Pods-DayLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayLight/Pods-DayLight.debug.xcconfig"; sourceTree = "<group>"; };
+		5AA2E93D109F351ED19409C3 /* Pods_DayLightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayLightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E6377ED4BF17D931D00BF1 /* Pods-DayLightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayLightUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayLightUITests/Pods-DayLightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EB1F7C94F1F80AFEA89ACF9 /* Pods-DayLightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayLightTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayLightTests/Pods-DayLightTests.release.xcconfig"; sourceTree = "<group>"; };
+		BBA2102E801302FDDAC6E019 /* Pods-DayLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayLight.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayLight/Pods-DayLight.release.xcconfig"; sourceTree = "<group>"; };
+		BF8A7943A72AEC5A631B5DB8 /* Pods-DayLightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayLightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayLightTests/Pods-DayLightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4524D585792634391DA2A73 /* Pods-DayLightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayLightUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayLightUITests/Pods-DayLightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAD29D1C11903519889917ED /* Pods_DayLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1BF1532116BFB20040300E /* DayLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1BF1562116BFB20040300E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB1BF15B2116BFB20040300E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1BF15D2116BFB30040300E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1BF1622116BFB30040300E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1BF1672116BFB40040300E /* DayLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1BF16B2116BFB40040300E /* DayLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayLightTests.swift; sourceTree = "<group>"; };
+		DB1BF16D2116BFB40040300E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1BF1722116BFB40040300E /* DayLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1BF1762116BFB40040300E /* DayLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayLightUITests.swift; sourceTree = "<group>"; };
+		DB1BF1782116BFB40040300E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2FF527211E846400A95B7C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DB4283A021384F0000844882 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		DBE60D362116C2F80064D057 /* DarkSkyAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyAPIManager.swift; sourceTree = "<group>"; };
+		DBE60D442116CF160064D057 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EA1DBA05211A5A1600903801 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1BF1502116BFB20040300E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E319DBAC2CE459178DDF14 /* Pods_DayLight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1BF1642116BFB30040300E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1110598F5BA6078A82A552EA /* Pods_DayLightTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1BF16F2116BFB40040300E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0EF249588F4381AD874B2C /* Pods_DayLightUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F52D9CAABD1DE0AEB7DFF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAD29D1C11903519889917ED /* Pods_DayLight.framework */,
+				5AA2E93D109F351ED19409C3 /* Pods_DayLightTests.framework */,
+				06B25F6B127C183FB3C605FA /* Pods_DayLightUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F641E6407B171B3FB4AFBED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				386CB321A1AA3CA957B1164C /* Pods-DayLight.debug.xcconfig */,
+				BBA2102E801302FDDAC6E019 /* Pods-DayLight.release.xcconfig */,
+				BF8A7943A72AEC5A631B5DB8 /* Pods-DayLightTests.debug.xcconfig */,
+				6EB1F7C94F1F80AFEA89ACF9 /* Pods-DayLightTests.release.xcconfig */,
+				66E6377ED4BF17D931D00BF1 /* Pods-DayLightUITests.debug.xcconfig */,
+				D4524D585792634391DA2A73 /* Pods-DayLightUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB1BF14A2116BFB20040300E = {
+			isa = PBXGroup;
+			children = (
+				DB1BF1552116BFB20040300E /* DayLight */,
+				DB1BF16A2116BFB40040300E /* DayLightTests */,
+				DB1BF1752116BFB40040300E /* DayLightUITests */,
+				DB1BF1542116BFB20040300E /* Products */,
+				5F641E6407B171B3FB4AFBED /* Pods */,
+				55F52D9CAABD1DE0AEB7DFF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1BF1542116BFB20040300E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1BF1532116BFB20040300E /* DayLight.app */,
+				DB1BF1672116BFB40040300E /* DayLightTests.xctest */,
+				DB1BF1722116BFB40040300E /* DayLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1BF1552116BFB20040300E /* DayLight */ = {
+			isa = PBXGroup;
+			children = (
+				DB1BF1562116BFB20040300E /* AppDelegate.swift */,
+				DBE60D362116C2F80064D057 /* DarkSkyAPIManager.swift */,
+				DBE60D442116CF160064D057 /* MainViewController.swift */,
+				DB2FF527211E846400A95B7C /* Color.swift */,
+				EA1DBA05211A5A1600903801 /* Day.swift */,
+				DBE60D382116C55D0064D057 /* UI */,
+				DB1BF1622116BFB30040300E /* Info.plist */,
+			);
+			path = DayLight;
+			sourceTree = "<group>";
+		};
+		DB1BF16A2116BFB40040300E /* DayLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1BF16B2116BFB40040300E /* DayLightTests.swift */,
+				DB1BF16D2116BFB40040300E /* Info.plist */,
+			);
+			path = DayLightTests;
+			sourceTree = "<group>";
+		};
+		DB1BF1752116BFB40040300E /* DayLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1BF1762116BFB40040300E /* DayLightUITests.swift */,
+				DB1BF1782116BFB40040300E /* Info.plist */,
+			);
+			path = DayLightUITests;
+			sourceTree = "<group>";
+		};
+		DBE60D382116C55D0064D057 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DB1BF15A2116BFB20040300E /* Main.storyboard */,
+				DB4283A021384F0000844882 /* MainViewController.xib */,
+				DB1BF15D2116BFB30040300E /* Assets.xcassets */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1BF1522116BFB20040300E /* DayLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1BF17B2116BFB40040300E /* Build configuration list for PBXNativeTarget "DayLight" */;
+			buildPhases = (
+				9A31E928325BCA8B6028E313 /* [CP] Check Pods Manifest.lock */,
+				DB1BF14F2116BFB20040300E /* Sources */,
+				DB1BF1502116BFB20040300E /* Frameworks */,
+				DB1BF1512116BFB20040300E /* Resources */,
+				F81A5A977BE17A3824C0E353 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayLight;
+			productName = DayLight;
+			productReference = DB1BF1532116BFB20040300E /* DayLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1BF1662116BFB30040300E /* DayLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1BF17E2116BFB40040300E /* Build configuration list for PBXNativeTarget "DayLightTests" */;
+			buildPhases = (
+				CAD974A8A35A967C178527D8 /* [CP] Check Pods Manifest.lock */,
+				DB1BF1632116BFB30040300E /* Sources */,
+				DB1BF1642116BFB30040300E /* Frameworks */,
+				DB1BF1652116BFB30040300E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1BF1692116BFB40040300E /* PBXTargetDependency */,
+			);
+			name = DayLightTests;
+			productName = DayLightTests;
+			productReference = DB1BF1672116BFB40040300E /* DayLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB1BF1712116BFB40040300E /* DayLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1BF1812116BFB40040300E /* Build configuration list for PBXNativeTarget "DayLightUITests" */;
+			buildPhases = (
+				FDF5ED04C9FEFC7D86F76EDE /* [CP] Check Pods Manifest.lock */,
+				DB1BF16E2116BFB40040300E /* Sources */,
+				DB1BF16F2116BFB40040300E /* Frameworks */,
+				DB1BF1702116BFB40040300E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1BF1742116BFB40040300E /* PBXTargetDependency */,
+			);
+			name = DayLightUITests;
+			productName = DayLightUITests;
+			productReference = DB1BF1722116BFB40040300E /* DayLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1BF14B2116BFB20040300E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "ktha-dev";
+				TargetAttributes = {
+					DB1BF1522116BFB20040300E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DB1BF1662116BFB30040300E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DB1BF1522116BFB20040300E;
+					};
+					DB1BF1712116BFB40040300E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DB1BF1522116BFB20040300E;
+					};
+				};
+			};
+			buildConfigurationList = DB1BF14E2116BFB20040300E /* Build configuration list for PBXProject "DayLight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1BF14A2116BFB20040300E;
+			productRefGroup = DB1BF1542116BFB20040300E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1BF1522116BFB20040300E /* DayLight */,
+				DB1BF1662116BFB30040300E /* DayLightTests */,
+				DB1BF1712116BFB40040300E /* DayLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1BF1512116BFB20040300E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1BF15E2116BFB30040300E /* Assets.xcassets in Resources */,
+				DB1BF15C2116BFB20040300E /* Main.storyboard in Resources */,
+				DB4283A121384F0000844882 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1BF1652116BFB30040300E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1BF1702116BFB40040300E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A31E928325BCA8B6028E313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayLight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD974A8A35A967C178527D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayLightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F81A5A977BE17A3824C0E353 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DayLight/Pods-DayLight-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WXKDarkSky/WXKDarkSky.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WXKDarkSky.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DayLight/Pods-DayLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF5ED04C9FEFC7D86F76EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayLightUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1BF14F2116BFB20040300E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE60D462116CF160064D057 /* MainViewController.swift in Sources */,
+				EA1DBA06211A5A1600903801 /* Day.swift in Sources */,
+				DB2FF528211E846400A95B7C /* Color.swift in Sources */,
+				DBE60D372116C2F80064D057 /* DarkSkyAPIManager.swift in Sources */,
+				DB1BF1572116BFB20040300E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1BF1632116BFB30040300E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1BF16C2116BFB40040300E /* DayLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1BF16E2116BFB40040300E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1BF1772116BFB40040300E /* DayLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1BF1692116BFB40040300E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1BF1522116BFB20040300E /* DayLight */;
+			targetProxy = DB1BF1682116BFB40040300E /* PBXContainerItemProxy */;
+		};
+		DB1BF1742116BFB40040300E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1BF1522116BFB20040300E /* DayLight */;
+			targetProxy = DB1BF1732116BFB40040300E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB1BF15A2116BFB20040300E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1BF15B2116BFB20040300E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1BF1792116BFB40040300E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB1BF17A2116BFB40040300E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1BF17C2116BFB40040300E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 386CB321A1AA3CA957B1164C /* Pods-DayLight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87L429T39R;
+				INFOPLIST_FILE = DayLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ktha-dev.DayLight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB1BF17D2116BFB40040300E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA2102E801302FDDAC6E019 /* Pods-DayLight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87L429T39R;
+				INFOPLIST_FILE = DayLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ktha-dev.DayLight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB1BF17F2116BFB40040300E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8A7943A72AEC5A631B5DB8 /* Pods-DayLightTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87L429T39R;
+				INFOPLIST_FILE = DayLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ktha-dev.DayLightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayLight.app/DayLight";
+			};
+			name = Debug;
+		};
+		DB1BF1802116BFB40040300E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB1F7C94F1F80AFEA89ACF9 /* Pods-DayLightTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87L429T39R;
+				INFOPLIST_FILE = DayLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ktha-dev.DayLightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayLight.app/DayLight";
+			};
+			name = Release;
+		};
+		DB1BF1822116BFB40040300E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E6377ED4BF17D931D00BF1 /* Pods-DayLightUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87L429T39R;
+				INFOPLIST_FILE = DayLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ktha-dev.DayLightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayLight;
+			};
+			name = Debug;
+		};
+		DB1BF1832116BFB40040300E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4524D585792634391DA2A73 /* Pods-DayLightUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87L429T39R;
+				INFOPLIST_FILE = DayLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ktha-dev.DayLightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1BF14E2116BFB20040300E /* Build configuration list for PBXProject "DayLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1BF1792116BFB40040300E /* Debug */,
+				DB1BF17A2116BFB40040300E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1BF17B2116BFB40040300E /* Build configuration list for PBXNativeTarget "DayLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1BF17C2116BFB40040300E /* Debug */,
+				DB1BF17D2116BFB40040300E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1BF17E2116BFB40040300E /* Build configuration list for PBXNativeTarget "DayLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1BF17F2116BFB40040300E /* Debug */,
+				DB1BF1802116BFB40040300E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1BF1812116BFB40040300E /* Build configuration list for PBXNativeTarget "DayLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1BF1822116BFB40040300E /* Debug */,
+				DB1BF1832116BFB40040300E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1BF14B2116BFB20040300E /* Project object */;
+}
